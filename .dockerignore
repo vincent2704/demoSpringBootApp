@@ -4,3 +4,5 @@
 .idea/*
 build/*
 !build/libs/*.jar
+version
+CHANGELOG.md
