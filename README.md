@@ -10,3 +10,7 @@ application context and a few standard libraries commonly used in Spring Boot pr
 * Project Lombok
 * Spock w/ Groovy
 * Docker
+
+### Known issues
+
+ * `docker build` creates 2 images instead of one after introducing multi-stage build
