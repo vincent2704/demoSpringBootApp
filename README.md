@@ -9,3 +9,4 @@ application context and a few standard libraries commonly used in Spring Boot pr
 * H2 local database
 * Project Lombok
 * Spock w/ Groovy
+* Docker
