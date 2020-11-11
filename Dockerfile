@@ -15,3 +15,11 @@ FROM openjdk:11
 WORKDIR /service
 COPY --from=build /build/libs/*.jar /service/app.jar
 ENTRYPOINT ["java","-jar","/service/app.jar"]
+
+
+## replace above config with below if you want to use locally built JAR
+
+#FROM openjdk:11
+#WORKDIR /service
+#COPY /build/libs/*.jar /service/app.jar
+#ENTRYPOINT ["java","-jar","/service/app.jar"]

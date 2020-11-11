@@ -10,7 +10,7 @@ ext {
 }
 
 group = 'com.example'
-version = '0.0.1-SNAPSHOT'
+version = file("$rootDir/version").text.trim()
 sourceCompatibility = '11'
 
 repositories {
